@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital@1&family=Radley:ital@0;1&display=swap');
+
+/* Fonts */
+/* Importar aquí la font */
+.mifoto {
+  border-radius: 60%;
+  justify-content: center;
+  width: 20rem;
+  height: 20rem;
+}
+
+#loguito {
+  height: 6rem;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+/*quita los puntos de la lista*/
+ul {
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+
+}
+
+/*titulos*/
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+/*parrafos*/
+p {
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+  margin: 20px;
+}
+
+div {
+  text-align: center;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.cero {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.uno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*barra de navegacion*/
+header {
+  display: flex;
+  background: #c8fae1;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px 1px #f98866;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  text-align: center;
+      
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.boton {
+  border: 10px;
+  background-color: #ff420e;
+  padding: 15px 32px;
+  text-align: center;
+  color: #191919;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #89da59;
+  text-align: center;
+  color: #191919;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.icono {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 1rem;
+}
+
+#iconos {
+  display: flex;
+  justify-content: center;
+}
+
+#contacto {
+  background-color: #f98866;
+  border-radius: 25px;
+  margin: 0.5rem;
+}
+
+body {
+  background-color: #fcebe8;
+  align-items: center;
+}
+
+/*media query*/
+@media (min-width: 950px) {
+
+
+  .imagen {
+    width: 18rem;
+    height: 23rem;
+  }
+
+  h1 {
+    font-size: 38px;
+    display: flex;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .icono {
+    width: 6rem;
+    height: 6rem;
+    margin: 2rem;
+  }
+
+  #contacto {
+    background-color: #f98866;
+    border-radius: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+  }
+  @media (min-width: 768px) {
+    /* Alineación del logotipo */
+    #loguito {
+      display: inline-block;
+      margin-right: 10px; /* Opcional: Añade un margen derecho para separarlo del texto */
+    }
+  
+    /* Alineación del enlace de Inicio y Contacto */
+    nav ul {
+      display: flex;
+      align-items: center;
+    }
+   }
+  }  
